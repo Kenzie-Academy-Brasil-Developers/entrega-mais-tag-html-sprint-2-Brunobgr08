@@ -1,0 +1,46 @@
+body{
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.header__h1{
+  font-size: 2.2em;
+}
+
+.main{
+  display: flex;
+  margin: 20px 60px;
+}
+
+.header__h2, .article__h3{
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.article__figure{
+    margin: auto;
+}
+
+.article__img{
+  width: 40%;
+  height: 40%;
+}
+  
+.article__figcap{
+    font-style: italic;
+    padding: 2px;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-end;
+}
